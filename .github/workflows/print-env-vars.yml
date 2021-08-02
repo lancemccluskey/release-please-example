@@ -1,0 +1,25 @@
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - develop
+name: Print env variables
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print env vars
+        run: |
+          echo "GITHUB_WORKFLOW:$GITHUB_WORKFLOW"
+          echo "GITHUB_EVENT_NAME:$GITHUB_EVENT_NAME"
+          echo "GITHUB_EVENT_PATH:$GITHUB_EVENT_PATH"
+          echo "GITHUB_WORKSPACE:$GITHUB_WORKSPACE"
+          echo "GITHUB_SHA:$GITHUB_SHA"
+          echo "GITHUB_REF:$GITHUB_REF"
+          echo "GITHUB_HEAD_REF:$GITHUB_HEAD_REF"
+          echo "github.head.ref"
+      - name: Print complete webhook event payload
+        run: cat $GITHUB_EVENT_PATH
+      - name: Conditionally print out stuff
+        if: ${{ contains(github.head_ref, 'foo-bar') }}
+        run: echo "The pr branch contains foo-bar somewhere"

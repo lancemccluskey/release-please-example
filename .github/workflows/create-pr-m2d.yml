@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     if: github.event.pull_request.merged
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
       - name: Create PR from main to develop
         run: gh pr create --base develop --head main --title "Release PR 'main' -> 'develop'" --body "Release PR"
         env:

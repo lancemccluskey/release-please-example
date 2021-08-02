@@ -16,6 +16,10 @@ fastify.get('/example', function (request, reply) {
   reply.send({ example: 'example route' });
 });
 
+fastify.get('/foo', function (request, reply) {
+  reply.send({ foo: 'foooooooo' });
+});
+
 // Run the server!
 fastify.listen(3000, function (err, address) {
   if (err) {

@@ -1,8 +1,7 @@
 on:
-  pull_request:
-    types: [closed]
+  push:
     branches:
-      - develop
+      - main
 name: Create PR main -> develop
 jobs:
   create-pr:
@@ -11,3 +10,5 @@ jobs:
     steps:
       - name: Create PR from main to develop
         run: gh pr create --base develop --head main --title "Release PR 'main' -> 'develop'" --body "Release PR"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

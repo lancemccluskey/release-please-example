@@ -3,7 +3,7 @@ on:
     types: [closed]
     branches:
       - release-v*
-name: Open Pull Request
+name: Create PR develop -> main
 jobs:
   create-pr:
     runs-on: ubuntu-latest

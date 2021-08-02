@@ -15,6 +15,8 @@ jobs:
           node-version: '12.x'
       - name: Check title
         run: |
-          echo "github.event_path.pull_request:$GITHUB_HEAD_REF $GITHUB_EVENT_PATH_PULL_REQUEST_TITLE" | npm run test:commit
+          echo "github.event_path.pull_request:$GITHUB_HEAD_REF"
+          echo "$GITHUB_EVENT_PATH_PULL_REQUEST_TITLE"
+          echo "$GITHUB_EVENT_PATH_PULL_REQUEST"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

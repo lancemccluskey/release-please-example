@@ -1,0 +1,16 @@
+on:
+  pull_request:
+    branches:
+      - develop
+name: Confirm title matches conventional commit spec
+jobs:
+  check-title:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v2
+      - name: Check title
+        run: |
+          echo "$github.event_path.pull_request.title" | npm run test:commit
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

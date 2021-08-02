@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.4.0...v1.5.0) (2021-08-02)
+
+
+### Features
+
+* updating other wkflow ([#31](https://www.github.com/lancemccluskey/release-please-example/issues/31)) ([dab609a](https://www.github.com/lancemccluskey/release-please-example/commit/dab609a09ad10cf79d28c8cc22a3474815c7d1c2))
+
 ## [1.4.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.3.0...v1.4.0) (2021-08-02)
 
 

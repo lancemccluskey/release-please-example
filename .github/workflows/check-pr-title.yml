@@ -18,6 +18,7 @@ jobs:
           echo "github.event_path.pull_request:$GITHUB_HEAD_REF"
           echo "pullrequesttitle:$GITHUB_EVENT_PATH_PULL_REQUEST_TITLE"
           echo "pullrequest:$GITHUB_EVENT_PATH_PULL_REQUEST"
-          echo "pulllll:${{github.event_path.pull_request.title}}"
+          echo "pulllll: $PR_TITLE"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          PR_TITLE: ${{ github.event_path.pull_request.title }}

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.5.0...v1.6.0) (2021-08-02)
+
+
+### Features
+
+* rm conditional form main to dev ([#34](https://www.github.com/lancemccluskey/release-please-example/issues/34)) ([e9e8bf1](https://www.github.com/lancemccluskey/release-please-example/commit/e9e8bf196a3633e09ee06241d5fbbab9c36b1941))
+
 ## [1.5.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.4.0...v1.5.0) (2021-08-02)
 
 

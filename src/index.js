@@ -8,6 +8,10 @@ fastify.get('/', function (request, reply) {
   reply.send({ hello: 'world' });
 });
 
+fastify.get('/test', function (request, reply) {
+  reply.send({ test: 'testy test' });
+});
+
 // Run the server!
 fastify.listen(3000, function (err, address) {
   if (err) {

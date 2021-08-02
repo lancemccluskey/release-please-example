@@ -8,7 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: GoogleCloudPlatform/release-please-action@v2
+        id: release
         with:
           release-type: node
           package-name: release-please-action
-          default-branch: main
+          default-branch: develop
+      # TODO: Try to change target branch of PR to main instead of develop

@@ -24,6 +24,9 @@ jobs:
         if: always()
         run: |
           echo "${{job.status}}"
-          # gh pr comment ${{github.event.number}} --body 
+          if [ "${{job.status}}" = "failure"]
+          then
+            gh pr comment ${{github.event.number}} --body "Bro, check dat PR title"
+          fi
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -17,5 +17,9 @@ jobs:
           echo "GITHUB_SHA:$GITHUB_SHA"
           echo "GITHUB_REF:$GITHUB_REF"
           echo "GITHUB_HEAD_REF:$GITHUB_HEAD_REF"
+          echo "github.head.ref"
       - name: Print complete webhook event payload
         run: cat $GITHUB_EVENT_PATH
+      - name: Conditionally print out stuff
+        if: ${{ github.head.ref == 'foo-bar-foo'}}
+        run: echo "The link is labeled foo-bar-foo"

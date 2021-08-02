@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.6.0...v1.7.0) (2021-08-02)
+
+
+### Features
+
+* blahblajhskdfsd ([#38](https://www.github.com/lancemccluskey/release-please-example/issues/38)) ([63d50c4](https://www.github.com/lancemccluskey/release-please-example/commit/63d50c4247b4fec9183442a4a3c2d2efbe8222c1))
+
 ## [1.6.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.5.0...v1.6.0) (2021-08-02)
 
 

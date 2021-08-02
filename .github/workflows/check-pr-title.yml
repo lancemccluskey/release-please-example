@@ -16,7 +16,8 @@ jobs:
       - name: Check title
         run: |
           echo "github.event_path.pull_request:$GITHUB_HEAD_REF"
-          echo "$GITHUB_EVENT_PATH_PULL_REQUEST_TITLE"
-          echo "$GITHUB_EVENT_PATH_PULL_REQUEST"
+          echo "pullrequesttitle:$GITHUB_EVENT_PATH_PULL_REQUEST_TITLE"
+          echo "pullrequest:$GITHUB_EVENT_PATH_PULL_REQUEST"
+          echo "pulllll:${{github.event_path}}"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -6,7 +6,6 @@ name: Create PR main -> develop
 jobs:
   create-pr:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2

@@ -9,8 +9,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
       - name: Check title
         run: |
-          echo "$github.event_path.pull_request.title" | npm run test:commit
+          echo "${{github.event_path.pull_request.title}}" | npm run test:commit
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.3.0...v1.4.0) (2021-08-02)
+
+
+### Features
+
+* maybe need to checkout repo first ([#28](https://www.github.com/lancemccluskey/release-please-example/issues/28)) ([ae19c32](https://www.github.com/lancemccluskey/release-please-example/commit/ae19c325063f50d92b3832c38112c385beef464e))
+
 ## [1.3.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.2.0...v1.3.0) (2021-08-02)
 
 

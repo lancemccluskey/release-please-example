@@ -1,0 +1,13 @@
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - release-v*
+name: Open Pull Request
+jobs:
+  create-pr:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged
+    steps:
+      - name: Create PR from develop to main
+        run: gh pr create --base main --head develop --title "Release PR 'develop' -> 'main'" --body "Release PR"

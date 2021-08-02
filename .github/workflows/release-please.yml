@@ -13,4 +13,3 @@ jobs:
           release-type: node
           package-name: release-please-action
           default-branch: develop
-      # TODO: Try to change target branch of PR to main instead of develop

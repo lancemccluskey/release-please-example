@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.2.0...v1.3.0) (2021-08-02)
+
+
+### Features
+
+* adding conditional step ([#22](https://www.github.com/lancemccluskey/release-please-example/issues/22)) ([1837aff](https://www.github.com/lancemccluskey/release-please-example/commit/1837aff18ae93c159b0cbdd8c9347b59c7001e1a))
+* adding rando stuff ([#26](https://www.github.com/lancemccluskey/release-please-example/issues/26)) ([088871d](https://www.github.com/lancemccluskey/release-please-example/commit/088871daf6bfb4e8c53bd75f1aa85bdb311a0960))
+* conditional step should work now ([#24](https://www.github.com/lancemccluskey/release-please-example/issues/24)) ([1f55d27](https://www.github.com/lancemccluskey/release-please-example/commit/1f55d27c5bc7f5868027505d7eddcb4bd6a4780c))
+* final conditional change ([#27](https://www.github.com/lancemccluskey/release-please-example/issues/27)) ([a9b49f7](https://www.github.com/lancemccluskey/release-please-example/commit/a9b49f7e8384ab977b3b21b3049707f8b2f41d4c))
+* printing out vars gh actions ([#20](https://www.github.com/lancemccluskey/release-please-example/issues/20)) ([aedcbb7](https://www.github.com/lancemccluskey/release-please-example/commit/aedcbb7535969d65dbf9f27296ee241591cbcdbe))
+* testing conditional wkflow step ([#23](https://www.github.com/lancemccluskey/release-please-example/issues/23)) ([74a176b](https://www.github.com/lancemccluskey/release-please-example/commit/74a176bf0fec531897c5149ef24b889df988ccfb))
+* testing out contain function ([#25](https://www.github.com/lancemccluskey/release-please-example/issues/25)) ([e5604fd](https://www.github.com/lancemccluskey/release-please-example/commit/e5604fd7dc8e53d622230f537e8344f0f6410e8b))
+
 ## [1.2.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.1.0...v1.2.0) (2021-08-02)
 
 

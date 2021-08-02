@@ -19,12 +19,8 @@ jobs:
           echo "pullrequesttitle:$GITHUB_EVENT_PATH_PULL_REQUEST_TITLE"
           echo "pullrequest:$GITHUB_EVENT_PATH_PULL_REQUEST"
           echo "pulllll: $PR_TITLE and also $BLAH"
-          echo "again: $PR_FROM_JSON"
-          echo "siempre: $PR_JSON"
           echo "should work: ${{github.event.pull_request.title}}"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           PR_TITLE: ${{ github.event_path.pull_request.title }}
           BLAH: fooooo
-          PR_FROM_JSON: ${{fromJSON(github.event_path.pull_request.title)}}
-          PR_JSON: ${{fromJSON(github.event_path.pull_request)}}

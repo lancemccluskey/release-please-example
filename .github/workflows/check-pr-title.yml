@@ -25,7 +25,7 @@ jobs:
         run: |
           if [ "${{job.status}}" = "failure" ]
           then
-            gh pr comment ${{github.event.number}} --body ":robot Bro, check dat PR title. :t-rex"
+            gh pr comment ${{github.event.number}} --body "🤖 Bro, check dat PR title. 👿"
           fi
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.1.0...v1.2.0) (2021-08-02)
+
+
+### Features
+
+* adding foo route ([#18](https://www.github.com/lancemccluskey/release-please-example/issues/18)) ([3653313](https://www.github.com/lancemccluskey/release-please-example/commit/3653313ad976fa99a04049ae917747fd35278b03))
+* updating wkflow conditional ([#16](https://www.github.com/lancemccluskey/release-please-example/issues/16)) ([1481df6](https://www.github.com/lancemccluskey/release-please-example/commit/1481df6be07c25e27de203595d51b0c963ef0a54))
+
+
+### Bug Fixes
+
+* adding example fix ([#19](https://www.github.com/lancemccluskey/release-please-example/issues/19)) ([082cbbd](https://www.github.com/lancemccluskey/release-please-example/commit/082cbbde565946886695c06c10edffd3a221a5cf))
+
 ## [1.1.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.0.0...v1.1.0) (2021-08-02)
 
 

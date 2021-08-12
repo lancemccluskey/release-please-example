@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.12.1...v1.13.0) (2021-08-12)
+
+
+### Features
+
+* checkout new branch before push to dev ([#71](https://www.github.com/lancemccluskey/release-please-example/issues/71)) ([58a43a8](https://www.github.com/lancemccluskey/release-please-example/commit/58a43a859778fa33a7fbcdd83e4b561ffa9a50fc))
+
 ### [1.12.1](https://www.github.com/lancemccluskey/release-please-example/compare/v1.12.0...v1.12.1) (2021-08-12)
 
 

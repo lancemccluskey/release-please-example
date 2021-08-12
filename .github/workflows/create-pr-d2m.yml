@@ -20,6 +20,6 @@ jobs:
       - name: Log gh version
         run: gh --version
       - name: Approve PR
-        run: gh pr review --approve -body "good job bro"
+        run: gh pr review --approve --body "good job bro"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

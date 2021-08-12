@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.12.1](https://www.github.com/lancemccluskey/release-please-example/compare/v1.12.0...v1.12.1) (2021-08-12)
+
+
+### Bug Fixes
+
+* messed up gh logic ([#67](https://www.github.com/lancemccluskey/release-please-example/issues/67)) ([f01f6de](https://www.github.com/lancemccluskey/release-please-example/commit/f01f6deeacca8cc6368d63275ec60a5ede9cfec1))
+
 ## [1.12.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.11.0...v1.12.0) (2021-08-12)
 
 

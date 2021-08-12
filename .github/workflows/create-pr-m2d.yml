@@ -13,3 +13,7 @@ jobs:
         run: gh pr create --base develop --head main --title "Release PR 'main' -> 'develop'" --body "Release PR"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Create PR from main to develop
+        run: gh pr merge -m -d false -b "merging main into develop"
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

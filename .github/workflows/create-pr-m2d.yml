@@ -14,8 +14,8 @@ jobs:
         uses: martinbeentjes/npm-get-version-action@master
       - name: Checkout new branch off main
         run: \
-           git checkout -b finish-release-${{ steps.package-version.outputs.current-version }}
-           git commit --allow-empty
+           git checkout -b finish-release-${{ steps.package-version.outputs.current-version }} &&
+           git commit --allow-empty &&
            git push -u origin finish-release-${{ steps.package-version.outputs.current-version }}
       - name: Create PR from main to develop
         run: gh pr create --base develop --title "Release PR 'main' -> 'develop'" --body "Release PR"

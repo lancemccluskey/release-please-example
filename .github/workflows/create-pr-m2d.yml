@@ -9,15 +9,9 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v2
+      - name: Checkout new branch off main
+        run: git checkout -b finish-release
       - name: Create PR from main to develop
-        run: gh pr create --base develop --head main --title "Release PR 'main' -> 'develop'" --body "Release PR"
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - name: Approve PR
-        run: gh pr review --approve --body "good job bro"
-        env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      - name: Merge PR from main to develop
-        run: gh pr merge --admin --merge --body "merging main into develop"
+        run: gh pr create --base develop --head finish-release --title "Release PR 'main' -> 'develop'" --body "Release PR"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

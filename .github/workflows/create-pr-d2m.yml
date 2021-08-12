@@ -15,3 +15,5 @@ jobs:
         run: gh pr create --base main --head develop --title "Release PR 'develop' -> 'main'" --body "Release PR"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: Logging info to see where im at
+        run: git status

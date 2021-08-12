@@ -16,10 +16,7 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Check title
-        # run: echo "${{github.event.pull_request.title}}" | npm run test:commit
-        run: echo "que pasa" | npm run test:commit
-        # env:
-        #   GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        run: echo "${{github.event.pull_request.title}}" | npm run test:commit
       - name: Comment on PR
         if: always()
         run: |

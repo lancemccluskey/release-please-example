@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.15.0...v1.16.0) (2021-08-12)
+
+
+### Features
+
+* forgot ampersands ([#82](https://www.github.com/lancemccluskey/release-please-example/issues/82)) ([61a9969](https://www.github.com/lancemccluskey/release-please-example/commit/61a996985be59b9c534f6c3f8d26c342ad9ca540))
+
 ## [1.15.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.14.0...v1.15.0) (2021-08-12)
 
 

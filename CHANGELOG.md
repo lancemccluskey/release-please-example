@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.9.0...v1.10.0) (2021-08-12)
+
+
+### Features
+
+* adding flee route ([#51](https://www.github.com/lancemccluskey/release-please-example/issues/51)) ([c8f40d1](https://www.github.com/lancemccluskey/release-please-example/commit/c8f40d14b7aa2deea800f8efc144dfe403f7b140))
+
 ## [1.9.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.8.0...v1.9.0) (2021-08-12)
 
 

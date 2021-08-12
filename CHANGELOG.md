@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.8.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.7.0...v1.8.0) (2021-08-12)
+
+
+### Features
+
+* adding pr title check ([#42](https://www.github.com/lancemccluskey/release-please-example/issues/42)) ([549aa65](https://www.github.com/lancemccluskey/release-please-example/commit/549aa652e34d1c048130e5dbae6f569e1edbc4e6))
+* adding wkflow stuff ([#44](https://www.github.com/lancemccluskey/release-please-example/issues/44)) ([0242113](https://www.github.com/lancemccluskey/release-please-example/commit/02421130ae7c5259d88ef84866b3bedb795739fb))
+
 ## [1.7.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.6.0...v1.7.0) (2021-08-02)
 
 

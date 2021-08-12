@@ -17,3 +17,5 @@ jobs:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       - name: Logging info to see where im at
         run: git status
+      - name: Log gh version
+        run: gh --version

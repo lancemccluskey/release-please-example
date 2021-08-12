@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.10.1...v1.11.0) (2021-08-12)
+
+
+### Features
+
+* logging gh version ([#59](https://www.github.com/lancemccluskey/release-please-example/issues/59)) ([8bf492a](https://www.github.com/lancemccluskey/release-please-example/commit/8bf492afc0c1f6915acaeb3fd05c4152b7c639ef))
+
 ### [1.10.1](https://www.github.com/lancemccluskey/release-please-example/compare/v1.10.0...v1.10.1) (2021-08-12)
 
 

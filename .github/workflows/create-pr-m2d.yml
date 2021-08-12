@@ -12,6 +12,6 @@ jobs:
       - name: Checkout new branch off main
         run: git checkout -b finish-release
       - name: Create PR from main to develop
-        run: gh pr create --base develop --head finish-release --title "Release PR 'main' -> 'develop'" --body "Release PR"
+        run: gh pr create --base develop --title "Release PR 'main' -> 'develop'" --body "Release PR"
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}

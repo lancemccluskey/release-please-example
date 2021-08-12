@@ -24,6 +24,10 @@ fastify.get('/baz', function (request, reply) {
   reply.send({ baz: 'bazzzzzzz' });
 });
 
+fastify.get('/flee', function (request, reply) {
+  reply.send({ flee: 'fleezzzzzz' });
+});
+
 // Run the server!!!!
 fastify.listen(3000, function (err, address) {
   if (err) {

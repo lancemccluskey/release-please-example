@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.8.0...v1.9.0) (2021-08-12)
+
+
+### Features
+
+* auto merging after releasE ([#47](https://www.github.com/lancemccluskey/release-please-example/issues/47)) ([0ebf738](https://www.github.com/lancemccluskey/release-please-example/commit/0ebf7387eb2dbc99f759a380a3241cb18eed13b9))
+
 ## [1.8.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.7.0...v1.8.0) (2021-08-12)
 
 

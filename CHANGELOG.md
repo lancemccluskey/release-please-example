@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.11.0...v1.12.0) (2021-08-12)
+
+
+### Features
+
+* adding auto approvals ([#63](https://www.github.com/lancemccluskey/release-please-example/issues/63)) ([9fca36f](https://www.github.com/lancemccluskey/release-please-example/commit/9fca36f7e6746796da1ece169350d777076ea84b))
+
 ## [1.11.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.10.1...v1.11.0) (2021-08-12)
 
 

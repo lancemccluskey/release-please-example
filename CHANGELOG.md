@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.10.1](https://www.github.com/lancemccluskey/release-please-example/compare/v1.10.0...v1.10.1) (2021-08-12)
+
+
+### Bug Fixes
+
+* updating wkflow to use admin privs ([#55](https://www.github.com/lancemccluskey/release-please-example/issues/55)) ([835cb4b](https://www.github.com/lancemccluskey/release-please-example/commit/835cb4b8655ca2a92aceed54bc557c9fe958da37))
+
 ## [1.10.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.9.0...v1.10.0) (2021-08-12)
 
 

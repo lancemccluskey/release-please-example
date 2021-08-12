@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.13.0...v1.14.0) (2021-08-12)
+
+
+### Features
+
+* dont need to specify head branch ([#75](https://www.github.com/lancemccluskey/release-please-example/issues/75)) ([5422c4a](https://www.github.com/lancemccluskey/release-please-example/commit/5422c4a449761f006b4dae136b4a3425dcfadfef))
+
 ## [1.13.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.12.1...v1.13.0) (2021-08-12)
 
 

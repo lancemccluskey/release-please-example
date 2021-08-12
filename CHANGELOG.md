@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.14.0...v1.15.0) (2021-08-12)
+
+
+### Features
+
+* checkout finish-release prior to final ([#78](https://www.github.com/lancemccluskey/release-please-example/issues/78)) ([64de439](https://www.github.com/lancemccluskey/release-please-example/commit/64de439a58c12745ffbd6fd7dabd6b0c16e28766))
+
 ## [1.14.0](https://www.github.com/lancemccluskey/release-please-example/compare/v1.13.0...v1.14.0) (2021-08-12)
 
 
